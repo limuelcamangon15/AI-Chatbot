@@ -20,8 +20,8 @@ const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
 
 const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
 
-app.get("/", (req, res) => {
-  res.json({ message: "HELLO" });
+app.get("/ai-health", (req, res) => {
+  res.status(200).json({ message: "AI still active" });
 });
 
 app.post("/chat", async (req, res) => {
@@ -60,11 +60,12 @@ Here are the tools and technologies he uses to develop exceptional systems:
 - Java
 - Dart
 - Flutter
-- C++
+- Python
 - C#
 - Express.js
 - Supabase
 - PostgreSQL
+- NextJS
 `;
 
     const result = await model.generateContent([systemPrompt, message]);
