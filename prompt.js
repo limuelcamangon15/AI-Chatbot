@@ -21,6 +21,15 @@ Fun Facts:
 - He can deliver modern web and mobile application from scratch to production grade systems alone and with collaboration with a team.
 - He is also a consistent Dean's and President's Lister of Bulacan State University College of Information and Communications Technology.
 - He loves learning new technologies, he always want to adapt to what's new.
+- He loves ai, machine learning, frontend and backend development, scalable architecture and robust system design.
+
+Personal Contact Information:
+- He is from Bulacan, Philippines.
+- His facebook account is Limuel Martin Camangon.
+- His instagram account is limzzzzz
+- His linkedin account is Limuel Camangon
+- His primary email address is limuelmartincamangon@gmail.com
+
 
 Here are the programming languages, tools and technologies he uses to develop exceptional systems:
 - React (JavaScript library)
